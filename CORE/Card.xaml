@@ -1,0 +1,26 @@
+﻿<Window x:Class="StickyNotes.CORE.Card"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StickyNotes.CORE"
+        mc:Ignorable="d"
+        Title="Card" Height="315" Width="343"     
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <Grid>
+        <TextBox
+            TextWrapping="Wrap"
+            MinWidth="280"
+            AcceptsReturn="True"
+            VerticalScrollBarVisibility="Auto"
+            SpellCheck.IsEnabled="True"
+            Text="Multiline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. The quick brown fox jumps ovdfdfdfer the lazy dog. War and peace. Keep going. Go on. For how long? Not long. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." VerticalAlignment="Top" Cursor="IBeam" Margin="10,10,10,0" />
+    </Grid>
+</Window>
